@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.reviewers {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 90%;
+  max-width: 1100px;
+  gap: 60px;
+}
+
+.reviewers-text {
+  flex: 1;
+}
+
+.reviewers-text .icon img {
+  width: 32px;
+  margin-bottom: 15px;
+}
+
+.reviewers-text h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.reviewers-text p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.checklist {
+  list-style: none;
+}
+
+.checklist li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #333;
+}
+
+.checklist img {
+  width: 18px;
+  height: 18px;
+}
+
+.reviewers-cards {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  width: 300px;
+}
+.card1 {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  width: 300px;
+  margin-left: 200px;
+}
+
+.card .logo {
+  width: 70px;
+  margin-bottom: 5px;
+}
+.card1 .logo {
+  width: 70px;
+  margin-bottom: 5px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;   /* centra verticalmente logo y estrellas */
+  gap: 10px;             /* espacio entre logo y estrellas */
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 40px;   /* ajusta tamaño logo */
+  height: auto;
+}
+
+.stars {
+  font-size: 18px;  /* tamaño estrellas */
+  color: gold;      /* color estrellas */
+}
+
+
+.card h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
